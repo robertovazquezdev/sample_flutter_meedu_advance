@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_meedu/flutter_meedu.dart';
-import 'package:sample_flutter_meedu_advance/app/ui/global_controllers/session_controller.dart';
 import 'package:flutter_meedu/router.dart' as router;
 import 'package:sample_flutter_meedu_advance/app/ui/pages/home/controller/homer_provider.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/home/utils/logout.dart';
@@ -69,6 +68,10 @@ class HomePage extends StatelessWidget {
                 return ListTile(
                   title: Text(user.firstName),
                   subtitle: Text(user.email),
+                  onTap: () => router.pushNamed(
+                    Routes.USER_DETAIL,
+                    arguments: user,
+                  ),
                 );
               },
               itemCount: users.length,

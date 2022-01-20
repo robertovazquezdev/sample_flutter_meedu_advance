@@ -1,5 +1,4 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:sample_flutter_meedu_advance/app/data/data_source/local/authentication_client.dart';
 import 'package:sample_flutter_meedu_advance/app/data/data_source/remote/authentication_api.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/repositories/authentication_repository.dart';
