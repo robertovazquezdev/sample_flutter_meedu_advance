@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_meedu/meedu.dart';
-import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repositiry.dart';
+import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/repositories/authentication_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/global_controllers/session_controller.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/routes/routes.dart';
@@ -14,6 +14,7 @@ class SplashController extends SimpleNotifier {
   }
 
   /*Get.i.find obtiene la dependecia inyectada anteriormente
+    al iniciar la app con la funcion injectDependencies,
     verificando que la instancia de la misma ya exista 
     y retorna esta misma, si no existe la crea.
   */

@@ -16,13 +16,13 @@ class SplashPage extends StatelessWidget {
     */
     return ProviderListener<SplashController>(
       provider: splashProvider,
-      /*onDispose se ejecuta indpendientemente
+      /*onDispose se ejecuta independientemente
       si al crear el provider se asigno la propiedad
       autodisponse = false
       o no se agregó a los navigatorObservers
       el router.observer
       */
-      /*sirve para liverar recursos 
+      /*sirve para liberar recursos 
       del controller cuando
       hayamos optado por aplicar alguna de las opciones
       arriba mencionadas
@@ -31,7 +31,7 @@ class SplashPage extends StatelessWidget {
       //   splashProvider.dispose();
       // },
       /*onChange se dispara cuando en el controlador
-      se llama a notify()
+      llama a notify()
       */
       onChange: (_, controller) {
         final routeName = controller.routeName;

@@ -4,8 +4,8 @@ import 'package:sample_flutter_meedu_advance/app/data/data_source/local/authenti
 import 'package:sample_flutter_meedu_advance/app/data/data_source/remote/account_api.dart';
 import 'package:sample_flutter_meedu_advance/app/data/data_source/remote/authentication_api.dart';
 import 'package:sample_flutter_meedu_advance/app/data/helpers/http.dart';
-import 'package:sample_flutter_meedu_advance/app/data/repositories_impl/account_repositiry_impl.dart';
-import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repositiry.dart';
+import 'package:sample_flutter_meedu_advance/app/data/repositories_impl/account_repository_impl.dart';
+import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repository.dart';
 
 import 'data/repositories_impl/authentication_repository_impl.dart';
 import 'domain/repositories/authentication_repository.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_meedu/flutter_meedu.dart';
 import 'package:flutter_meedu/router.dart' as router;
-import 'package:sample_flutter_meedu_advance/app/ui/pages/home/controller/homer_provider.dart';
+import 'package:sample_flutter_meedu_advance/app/ui/pages/home/controller/home_provider.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/home/utils/logout.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/routes/routes.dart';
 
@@ -54,7 +54,7 @@ class HomePage extends StatelessWidget {
                 final offset = scrollControler.position.pixels;
                 final maxScrollExtent =
                     scrollControler.position.maxScrollExtent;
-                /*estamos al finalde la lista*/
+                /*estamos al final de la lista*/
                 if (offset >= maxScrollExtent) {
                   controller.load(state.page + 1);
                 }

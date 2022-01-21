@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_meedu/meedu.dart';
-import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repositiry.dart';
+import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/repositories/authentication_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/responses/login_response.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/global_controllers/session_controller.dart';

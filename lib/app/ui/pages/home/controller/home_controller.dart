@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_meedu/meedu.dart';
-import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repositiry.dart';
+import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/home/controller/home_state.dart';
 
 class HomeController extends StateNotifier<HomeState> {

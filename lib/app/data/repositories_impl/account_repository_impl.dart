@@ -1,6 +1,6 @@
 import 'package:sample_flutter_meedu_advance/app/data/data_source/remote/account_api.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/models/user.dart';
-import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repositiry.dart';
+import 'package:sample_flutter_meedu_advance/app/domain/repositories/account_repository.dart';
 import 'package:sample_flutter_meedu_advance/app/domain/responses/users_per_page_response.dart';
 
 class AccountRepositoryImpl implements AccountRepository {
