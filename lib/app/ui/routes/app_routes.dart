@@ -1,4 +1,3 @@
-import 'package:sample_flutter_meedu_advance/app/domain/models/user.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/home/home_page.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/login/login_page.dart';
 import 'package:sample_flutter_meedu_advance/app/ui/pages/profile/profile_page.dart';
