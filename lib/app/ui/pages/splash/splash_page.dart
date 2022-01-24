@@ -10,9 +10,17 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    /*ProviderListener sirve para escuchar
-    los distintos tipo de cambios y estados del controller
-    y ejecutar una funcion por cada uno
+    /*ProviderListener 
+    nos permite leer el controller
+    y escuchar los distintos tipo de cambios y estados del controller
+    y ejecutar una funcion por cada uno.
+
+    -la propiedad builder si se renderiza
+    cada que flutter lo requiera
+    como por ejemplo cuando el teclado aparece y desaparece
+    pero en usando ProviderListener el trabajo de leer
+    el controller con la propiedad provider
+    ese si solo lo hace una vez
     */
     return ProviderListener<SplashController>(
       provider: splashProvider,
